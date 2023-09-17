@@ -8,8 +8,8 @@ For the Conceptual diagram, all entities have a many to many relationship. This 
 
 The relationships are clearly illustrated to show how the tables will be connected. The relationships are as follows:
 - Students enroll into Courses.
-- Students select a major(s).
-- Majors have requirements that need to be met.
+- Students select a Major(s).
+- Majors have Requirements that need to be met.
 - Requirements are fulfilled by Courses.
 
 For the Logical diagram, the relationships are more transparent with the fields added. The core design is based off a degree checklist form. An example is the Student table. It only has a primary key, first name and last name. This is how I approached creating the fields for each table.
@@ -18,7 +18,7 @@ For the Logical diagram, the relationships are more transparent with the fields 
 
 The key concept to creating the relationships this way was that Student, Major, Course, and Requirement have many to many relationships. Enroll, Major_selection, Major_requirement and Course_requirement links the tables due to these relationships. There will be multiple times when each table is used.
 
-For the Physical diagram, the pimary and foreign keys are identified.
+For the Physical diagram, the primary and foreign keys are identified.
 ![Bradley_Kai_Physical_SS.png](https://github.com/BradBKaiBuffs/Assignment-2-Models/blob/main/Bradley_Kai_Physical_SS.png)
 
-The primary and foreign keys are connected with many to many relationships.  
+The primary and foreign keys are connected with many to many relationships. While the primary keys are not absolutely required Enroll, Course_requirement, Major_requirement and Major_selection tables. A primary key is added for future database modifications. This also provides the flexibility to join on these keys in the event new tables are created.
