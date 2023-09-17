@@ -18,7 +18,7 @@ For the Logical diagram, the relationships are more transparent with the fields 
 
 The key concept to creating the relationships this way was that Student, Major, Course, and Requirement have many to many relationships. Enroll, Major_selection, Major_requirement and Course_requirement links the tables due to these relationships. There will be multiple times when each table is used.
 
-For the Physical diagram, the foreign keys are introduced to illustrate the relationships.
+For the Physical diagram, the pimary and foreign keys are identified.
 ![Bradley_Kai_Physical_SS.png](https://github.com/BradBKaiBuffs/Assignment-2-Models/blob/main/Bradley_Kai_Physical_SS.png)
 
 The primary and foreign keys are connected with many to many relationships.  
