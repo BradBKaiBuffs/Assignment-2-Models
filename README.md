@@ -13,13 +13,13 @@ The relationships are clearly illustrated to show how the tables will be connect
 - Majors have requirements that need to be met.
 - Requirements are fulfilled by Courses.
 
-For the Logical diagrams, the relationships are more transparent with the fields added.
+For the Logical diagram, the relationships are more transparent with the fields added. The core design is based off a degree checklist form. An example is the Student table. It only has a primary key, first name and last name. This is how I approached creating the fields for each table.
 
 ![Bradley_Kai_Logical_SS.png](https://github.com/BradBKaiBuffs/Assignment-2-Models/blob/main/Bradley_Kai_Logical_SS.png)
 
-The key concept to creating the relationships this way was that Student, Major, Course, and Requirement would need to be updated less. Enroll, Major_selection, Major_requirement and Course_requirement links the tables.
+The key concept to creating the relationships this way was that Student, Major, Course, and Requirement have many to many relationships. Enroll, Major_selection, Major_requirement and Course_requirement links the tables due to these relationships. There will be multiple times when each table is used.
 
-For Physical, the foreign keys are introduced to illustrate the relationships.
+For the Physical diagram, the foreign keys are introduced to illustrate the relationships.
 ![Bradley_Kai_Physical_SS.png](https://github.com/BradBKaiBuffs/Assignment-2-Models/blob/main/Bradley_Kai_Physical_SS.png)
 
 The primary and foreign keys are connected with many to many relationships.  
