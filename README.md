@@ -1,5 +1,4 @@
-# Assignment-2-Models
-Assignment 2 Models
+# Assignment 2: Models
 
 For this assignment, I created three diagrams: ***Conceptual, Logical, and Physical***. Included is Models.py which uses Django ORM.
 
